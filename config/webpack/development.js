@@ -3,4 +3,4 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 const environment = require('./environment');
 const server = require("./server");
 
-module.exports = [server, environment.toWebpackConfig()];
+module.exports = [environment.toWebpackConfig(), server];

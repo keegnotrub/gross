@@ -12,8 +12,6 @@ hypernova({
     }    
     let componentMap = require("./public/packs/react-views-ssr.js");
 
-    console.log(componentMap);
-    
     if (componentMap[name]) {
       return componentMap[name];
     }

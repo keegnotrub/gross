@@ -1,4 +1,3 @@
-const upperFirst = require("lodash/upperFirst");
 const context = require.context('../views', true, /\.js$/);
 const views = {};
 
@@ -10,7 +9,7 @@ context.keys().forEach((key) => {
     if (i === keyParts.length - 1) {
       keyPart = keyPart.replace(/\.\w+$/, '');
     }
-    return upperFirst(keyPart);
+    return keyPart[0].toUpperCase() + keyPart.slice(1).toLowerCase();
   }).join('');
   
   views[viewKey] = view.default || view;
