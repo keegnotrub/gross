@@ -17,7 +17,7 @@ const Welcome = (props) => {
   return (
     <Application>
       <div className={classes.text}>Hi {props.name}!!</div>
-      <div>hi</div>
+      <div>hello!!!!!</div>
     </Application>
   );
 };
