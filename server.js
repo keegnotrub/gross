@@ -39,9 +39,16 @@ hypernova({
   devMode: devMode,
   port: 3030,
   getComponent: (name) => {
+    console.log(`got ${name}`);
+    
     const file = getFile(name);
     if (file) {
+      console.log(`found ${name}`);
+
       const view = require(file);
+
+      console.log(`required ${view}`);
+      
       return view.default || view;
     }
     return null;
