@@ -7,7 +7,7 @@ import theme from '../../utils/theme';
 
 const useStyles = makeStyles((theme) => ({
   text: {
-    marginBottom: 100
+    marginBottom: 20
   },
 }));
 
@@ -17,7 +17,7 @@ const Welcome = (props) => {
   return (
     <Application>
       <div className={classes.text}>Hi {props.name}!!</div>
-      <div>hello!!!!!</div>
+      <div>hello!</div>
     </Application>
   );
 };
