@@ -2,6 +2,11 @@
   "name": "gross",
   "private": true,
   "main": "server.js",
+  "engines": {
+    "node": "10.19.0",
+    "npm": "6.14.2",
+    "yarn": "1.21.1"
+  },
   "dependencies": {
     "@babel/core": "^7.10.2",
     "@babel/plugin-transform-react-jsx": "^7.10.1",
