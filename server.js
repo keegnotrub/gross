@@ -8,7 +8,7 @@ require("@babel/register")({
 });
 
 const devMode = (process.env.NODE_ENV || "development") === "development";
-const port = process.env.PORT || 3030;
+const port = 3030;
 const filesPath = path.resolve(path.join('app', 'javascript', 'views'));
 
 const getFiles = () => {
