@@ -48,5 +48,3 @@ hypernova({
     return null;
   }
 });
-
-
