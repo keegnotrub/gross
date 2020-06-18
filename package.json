@@ -3,7 +3,7 @@
   "private": true,
   "main": "server.js",
   "dependencies": {
-    "@babel/plugin-transform-modules-commonjs": "^7.10.1",
+    "@babel/core": "^7.10.2",
     "@babel/plugin-transform-react-jsx": "^7.10.1",
     "@babel/preset-react": "^7.10.1",
     "@babel/register": "^7.10.1",
@@ -15,13 +15,11 @@
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "esm": "^3.2.25",
     "hypernova": "^2.5.0",
-    "hypernova-react": "^2.1.0",
-    "lodash": "^4.17.15",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "turbolinks": "^5.2.0",
-    "webpack-merge": "^4.2.2"
+    "webpack": "^4.43.0"
   },
   "version": "0.1.0",
   "devDependencies": {

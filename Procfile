@@ -1,2 +1,2 @@
 web: bundle exec puma -C config/puma.rb
-hypernova: npm start
+hypernova: yarn run start
