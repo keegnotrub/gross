@@ -8,7 +8,6 @@ require("@babel/register")({
 });
 
 const devMode = (process.env.NODE_ENV || "development") === "development";
-const port = 3030;
 const filesPath = path.resolve(path.join('app', 'javascript', 'views'));
 
 const getFiles = () => {
@@ -38,7 +37,7 @@ const getFile = (name) => {
 
 hypernova({
   devMode: devMode,
-  port: port,
+  port: 3030,
   getComponent: (name) => {
     const file = getFile(name);
     if (file) {

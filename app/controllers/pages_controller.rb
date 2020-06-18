@@ -1,11 +1,13 @@
 class PagesController < ApplicationController
   def welcome
-    @name = "Ryan"
-
-    render_react name: @name
+    @title = "Welcome"
+    
+    render_react name: "Ryan"
   end
 
   def about
+    @title = "About"
+    
     render_react
   end
 end

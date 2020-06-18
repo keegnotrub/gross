@@ -1,4 +1,4 @@
 Hypernova.configure do |config|
-  config.host = "0.0.0.0"
+  config.host = "localhost"
   config.port = "3030"
 end
