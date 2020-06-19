@@ -35,9 +35,13 @@ const getFile = (name) => {
   return fileCache[name];
 };
 
+const getCPUs = () => {
+  return 1;
+};
+
 hypernova({
   devMode: devMode,
-  getCPUs: 1,
+  getCPUs: () -> getCPUs(),
   host: '127.0.0.1',
   port: 3030,
   getComponent: (name) => {
