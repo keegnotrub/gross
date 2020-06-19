@@ -41,7 +41,7 @@ const getCPUs = () => {
 
 hypernova({
   devMode: devMode,
-  getCPUs: () -> getCPUs(),
+  getCPUs: getCPUs,
   host: '127.0.0.1',
   port: 3030,
   getComponent: (name) => {
