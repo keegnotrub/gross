@@ -1,0 +1,4 @@
+rails: bundle exec puma -C config/puma.rb
+hypernova: yarn run start
+
+
